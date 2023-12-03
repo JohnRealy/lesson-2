@@ -10,6 +10,7 @@
 @import url('./features.css');
 @import url('./video.css');
 @import url('./team.css');
+@import url('./modal.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
