@@ -1,3 +1,42 @@
 .features {
-    background: red;
+  font-family: Roboto, sans-serif;
+  padding: 120px 0;
 }
+
+.features-heading {
+  color: #000;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.heading-block-text {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  width: 855px;
+  margin: 0 auto;
+}
+
+/* .features-item-heading {
+  position: relative;
+} */
+
+.features-block-item-info-item {
+  display: flex;
+}
+
+/* .features-item-heading::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 28px;
+  height: 28px;
+  background-color: red;
+} */
