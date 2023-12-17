@@ -1,5 +1,35 @@
-.header {
-  padding: 20px 0;
-  background-color: teal;
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  height: 72px;
+  padding: 16px 19px;
 }
 
+.logo {
+  color: #fff;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navigation-items-list {
+  display: flex;
+  gap: 40px;
+}
+
+.navigation-item {
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
